@@ -1,0 +1,95 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{140, 78}, {200, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "frame" : "{{140, 144}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "E90D5132-710E-40F6-8ADE-F1D726A249DD",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "year_textfield",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{28, 20}, {320, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "869C3330-B89F-47CC-B7AF-54E2DA48A528",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Type in the year you want to check ",
+          "name" : "label1",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{122, 140}, {148, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "059FDD34-4C5F-4E99-B67C-068DBC0C80FB",
+          "image_name" : "iob:search_24",
+          "font_size" : 15,
+          "background_color" : "RGBA(0.000000,0.000000,1.000000,1.000000)",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "tint_color" : "RGBA(1.000000,1.055556,1.033333,1.000000)",
+          "border_color" : "RGBA(1.000000,1.088889,1.066667,1.000000)",
+          "title" : "Check",
+          "action" : "check_touch_up_inside",
+          "alpha" : 1,
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "check_button",
+          "flex" : ""
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{45, 213}, {215, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "2AAFED77-063A-4EB7-8948-D67DA3079B0C",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "name" : "show_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {480, 320}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
