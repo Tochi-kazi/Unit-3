@@ -1,0 +1,47 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{35, 25}, {406, 234}}",
+        "class" : "ImageView",
+        "attributes" : {
+          "frame" : "{{190, 110}, {100, 100}}",
+          "class" : "ImageView",
+          "name" : "man_walking_image_view",
+          "uuid" : "4150374F-10E4-45B0-B3EF-1CB4368CEA05"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{134, 267}, {185, 47}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "start_touch_up_inside",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "Button",
+          "uuid" : "4A12ED1D-99A1-4622-A442-93CF81DF8FF2",
+          "class" : "Button",
+          "name" : "start_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {480, 320}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
