@@ -1,0 +1,93 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{157, 146}, {133, 30}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "32D5607D-630D-4318-98DA-1CED365F8255",
+          "background_color" : "RGBA(0.033333,0.355556,1.000000,1.000000)",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "border_color" : "RGBA(1.000000,1.133333,1.100000,1.000000)",
+          "title" : "Calculate ",
+          "action" : "calculate_button_touch_up_inside",
+          "alpha" : 1,
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "calculate-button",
+          "font_size" : 15
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{65, 234}, {217, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "factorial_label",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "5F0B9E6D-1F25-4BA6-98D7-EDB6BD001816",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{207, 54}, {178, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "name" : "integer_textfield",
+          "frame" : "{{140, 144}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "0F07C1B4-21A9-4399-84A0-3E0CDA0852A2",
+          "alignment" : "center",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{49, 54}, {150, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "integer_label",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "3DFF2208-A233-40F8-B1F4-86596C9D9F6D",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "type in integer ",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {480, 320}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
